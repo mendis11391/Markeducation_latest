@@ -1,0 +1,264 @@
+.textCenter {
+    text-align: center;
+}
+
+.required{
+    color: red;
+}
+
+/* To solve a conflict with other CSS styles */
+.datepicker.dropdown-menu {
+    visibility: visible;
+    opacity: 1;
+    width: auto;
+}
+.p-l-0 {
+    padding-left: 0 !important;
+}
+.p-r-0 {
+    padding-right: 0 !important;
+}
+.p-30 {
+    padding: 30px;
+}
+
+.p-t-30 {
+    padding-top: 30px;
+}
+
+.p-12 {
+    padding: 12px !important;
+}
+
+.p-5{
+    padding: 5px !important;
+}
+
+.f-r{
+    float: right;
+}
+
+.textBold {
+    font-weight: bold;
+}
+@font-face {
+    font-family: dancing;
+    src: url(../fonts/DancingScript.otf);
+}
+.verifyInputBx {
+    border-radius: 4px 0 0px 5px !important;
+}
+.verifyInputBtn,
+.verifyInputBtn:focus {
+    border-radius: 0 5px 5px 0;
+    background: #04B40B;
+    border-color: #00af07;
+    color: #fff;
+    text-transform: uppercase;
+}
+.verifyInputBtn:hover {
+    border-radius: 0 5px 5px 0;
+    background: #fff;
+    border-color: #00af07;
+    color: #04B40B;
+    text-transform: uppercase;
+}
+.m-0 {
+    margin: 0 auto;
+}
+.m-b-20{
+    margin-bottom: 20px;
+}
+.table-striped>tbody>tr:nth-of-type(odd) {
+    background: #e5e5e5;
+}
+.studentDataTitle tr td {
+    padding: 20px 30px !important;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+.verificationTableDetails {
+    padding: 20px 60px;
+}
+
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 40px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+}
+/* Modal Content */
+
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    border: 1px solid #888;
+    width: 65%;
+}
+/* The Close Button */
+
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+.verificationResult {
+    display: table;
+    width: 100%;
+}
+.modalHeader {
+    background: url(../../assets/img/bg.png);
+    padding: 24px;
+    border-radius: 4px;
+}
+.modalHeaderTitle {
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.modalCoordinatorResultDiv p, .modalCoordinatorResultDiv h3, .modalCoordinatorResultDiv td{
+    font-family: dancing;
+}
+
+
+#rootwizard .nav>li>a{
+    border-bottom: 1px solid #3db6ff;
+    border-radius: 0;
+}
+
+#rootwizard .nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover{
+    color: #3db6ff;
+    background: none;
+    border-top: 1px solid;
+    border-left: 1px solid;
+    border-right: 1px solid;
+    border-bottom: none;
+    border-radius: 0;
+}
+
+
+#updateStudentDetailsDiv .nav>li>a{
+    border-bottom: 1px solid #3db6ff;
+    border-radius: 0;
+}
+
+#updateStudentDetailsDiv .nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover{
+    color: #3db6ff;
+    background: none;
+    border-top: 1px solid;
+    border-left: 1px solid;
+    border-right: 1px solid;
+    border-bottom: none;
+    border-radius: 0;
+}
+
+
+.certiBorder{
+    border: 8px solid #323299;
+}
+
+.studentDetailTable td{
+    padding: 5px;
+    font-size: 0.7em;
+}
+
+.dispStudentName{
+    font-weight: bold;
+}
+
+.coordinator{
+    font-size: 45px;
+    font-weight: bold;
+    line-height: 1;
+    width: 40%;
+    margin: 0 auto;
+    border: 2px solid #f7c01c;
+    border-radius: 5px;
+    padding: 10px;
+    color: #fff;
+    background: #f7c634;
+    margin-bottom: 10px;
+}
+
+
+@media screen and (max-width: 700px) {
+
+.verifyDiv .container{
+    width: 95% !important;
+}
+
+.instituteName{
+    display: none;
+}
+
+.isoLogo{
+    width:100px;
+    margin-top: -68px !important;
+}
+
+.markLogo{
+    width:150px;
+}
+
+.xs-p-t-40{
+    padding-top: 40px !important;
+}
+
+.content .loginForm{
+    width: 80% !important;
+}
+
+
+}
+
+
+
+@media screen and (max-width: 650px) {
+
+.isoLogo{
+    width:100px;
+    margin-top: 0 !important;
+    margin: 0 auto;
+    float: none !important;
+}
+
+.markLogo{
+    width:200px;
+    margin: 0 auto;
+}
+
+}
+
+@media screen and (max-width: 500px) {
+    .modal-content{
+        width: 300px;
+    }
+}
+
+@media screen and (min-width: 700px) and (max-width: 1024px){
+    .coordinator{
+    width: 55%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .coordinator{
+    width: 90%;
+    }
+}
